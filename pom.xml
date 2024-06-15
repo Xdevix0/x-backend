@@ -26,11 +26,7 @@
             <artifactId>json</artifactId>
             <version>20210307</version>
         </dependency>
-        <dependency>
-            <groupId>com.github.USERNAME</groupId>
-            <artifactId>REPO</artifactId>
-            <version>VERSION</version>
-        </dependency>
+        
 
     </dependencies>
 </project>
