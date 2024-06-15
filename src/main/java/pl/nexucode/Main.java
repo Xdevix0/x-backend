@@ -12,7 +12,7 @@ import java.net.URL;
 public class Main {
     public static void main(String[] args) throws IOException {
         System.out.println("x-backend-Api - sprawdzam czy server odpowiada");
-        String urlString = "http://localhost:8080/bans";
+        String urlString = "http://moodhc.pl:8090/bans";
 
         try {
             // Tworzymy URL

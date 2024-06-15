@@ -10,7 +10,7 @@ import java.net.URL;
 
 public class BansHandler {
     public JSONObject getBans(String nick) throws IOException {
-        String url = "http://localhost:8080/bans?nick=" + nick;
+        String url = "http://moodhc.pl:8090/bans?nick=" + nick;
         HttpURLConnection httpClient = (HttpURLConnection) new URL(url).openConnection();
 
         // Opcje metody GET
